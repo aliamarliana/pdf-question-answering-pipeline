@@ -26,8 +26,8 @@ load_dotenv()  # Load API keys and environment variables from .env
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-PINECONE_ENV = os.getenv("PINECONE_ENVIRONMENT", "gcp-starter")
-INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "langchainvector")
+PINECONE_ENV = os.getenv("PINECONE_ENVIRONMENT")
+INDEX_NAME = os.getenv("PINECONE_INDEX_NAME")
 
 
 # ==============================
