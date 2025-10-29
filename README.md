@@ -63,7 +63,7 @@ python app.py
 ## 💬 Example Query
 When prompted or hardcoded in the script:
 ```bash
-query = "How much the agriculture target will be increased by how many srore?"
+query = "How much the agriculture target will be increased by how many score?"
 ```
 
 You’ll see an answer printed in the console.
