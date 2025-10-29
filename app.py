@@ -120,5 +120,5 @@ if __name__ == "__main__":
     qa_chain = setup_qa_chain()
 
     # Step 4: Ask a question
-    query = "How much the agriculture target will be increased by how many crore?"
+    query = "How much the agriculture target will be increased by how many score?"
     get_answer(index, qa_chain, query)
